@@ -89,3 +89,14 @@ RUN rm -rf tmp /root/.config/Ultralytics/persistent_cache.json
 
 # GCP VM from Image
 # docker.io/ultralytics/ultralytics:latest
+
+
+# # Set image name as a variable
+# t=ultralytics/ultralytics:latest
+
+# # Pull the latest ultralytics image from Docker Hub
+# sudo docker pull $t
+
+# sudo docker run -it --shm-size=8g --ipc=host --gpus all \
+# -v /media/user/c84b1a83-af96-4d25-8aa1-b4730de6d933/LJY/ultralytics:/workspace \ 
+# -p 8888:8888 $t
