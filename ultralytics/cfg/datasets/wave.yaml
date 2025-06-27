@@ -11,9 +11,9 @@
 # Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
 path: /workspace/datasets/wave
  # dataset root dir
-train: train2025.txt # train images (relative to 'path') 118287 images
-val: val2025.txt # val images (relative to 'path') 5000 images
-test: val2025.txt # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+train: train2024.txt # train images (relative to 'path') 118287 images
+val: val2024.txt # val images (relative to 'path') 5000 images
+test: val2024.txt # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
 
 # Classes
 names:
